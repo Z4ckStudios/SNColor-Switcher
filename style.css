@@ -256,6 +256,7 @@ body
     .button4
     {
         visibility: collapse;
+        background: none;
     }
     .p1
     {
