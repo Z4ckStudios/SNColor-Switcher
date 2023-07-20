@@ -172,7 +172,7 @@ body
     left: 5.2%;
     cursor: pointer;
     background: none;
-    visibility: collapse;
+    visibility: hidden;
     border: none;
     outline: none;
 }
