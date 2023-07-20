@@ -3,6 +3,15 @@ body
     margin: 0;
     padding: 0;
 }
+.code1
+{
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Times;
+}
 .button1
 {
     position: absolute;
@@ -45,9 +54,12 @@ body
 .button4
 {
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 0%;
+    left: 5.2%;
     cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
 }
 .p1
 {
