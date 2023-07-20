@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <link rel="shortcut icon" href="https://i.imgur.com/vi4ONbp_d.webp?maxwidth=760&amp;fidelity=grand" type="image/x-icon">
     
 <title>SN Color Switcher</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body style="background: rgb(15, 15, 15);">
 
+<div class="wrapper">
     <p class="p1"></p>
     <p class="p2"></p>
     <p class="p3"></p>
@@ -23,6 +28,12 @@
         <img width="100px" height="100px" src="https://media.discordapp.net/attachments/1048834236091736144/1130176111020613652/SnowwNet_Logo.png?width=480&height=480">
     </button>
     </a>
+
+    <button class="button4Phone">
+        <img width="75px" height="75px" src="https://media.discordapp.net/attachments/1048834236091736144/1130176111020613652/SnowwNet_Logo.png?width=480&height=480">
+    </button>
+    </a>
+</div>
     
         <script type="text/javascript">
         var color = ["#ff0000","#ff0000"];
@@ -63,64 +74,6 @@
         document.querySelector(".p5").style.background = qFix3[i]
         })
     </script>
-
-<!--Phone Separation-->
-
-<p class="p1Phone"></p>
-<p class="p2Phone"></p>
-<p class="p3Phone"></p>
-<p class="p4Phone"></p>
-<p class="p5Phone"></p>
-
-<button class="button1Phone"></button>
-<button class="button2Phone"></button>
-<button class="button3Phone"></button>
-
-<code class="code1Phone">Made with</code>
-<button class="button4Phone">
-    <img width="100px" height="100px" src="https://media.discordapp.net/attachments/1048834236091736144/1130176111020613652/SnowwNet_Logo.png?width=480&height=480">
-</button>
-</a>
-
-    <script type="text/javascript">
-    var colorPhone = ["#ff0000","#ff0000"];
-    var qFixPhone = ["#000000","#000000"];
-    var i = 2;
-
-    document.querySelector(".button1Phone").addEventListener("click",
-    function(){ 
-    i = i < colorPhone.length ? ++i : i - 2;
-    i = i < qFixPhone.length ? +i : i - 2;
-
-    document.querySelector("body").style.background = colorPhone[i]
-    document.querySelector(".p3Phone").style.background = qFixPhone[i]
-    })
-
-    var color2Phone = ["#00ff00","#00ff00"];
-    var qFix2Phone = ["#000000","#000000"];
-    var i = 2;
-
-    document.querySelector(".button2Phone").addEventListener("click",
-    function(){ 
-    i = i < color2Phone.length ? ++i : i - 2;
-    i = i < qFix2Phone.length ? +i : i - 2;
-
-    document.querySelector("body").style.background = color2Phone[i]
-    document.querySelector(".p4Phone").style.background = qFix2Phone[i]
-    })
-
-    var color3Phone = ["#0000ff","#0000ff"];
-    var qFix3Phone = ["#000000","#000000"];
-    var i = 2;
-    document.querySelector(".button3Phone").addEventListener("click",
-    function(){ 
-    i = i < color3Phone.length ? ++i : i - 2;
-    i = i < qFix3Phone.length ? +i : i - 2;
-
-    document.querySelector("body").style.background = color3Phone[i]
-    document.querySelector(".p5Phone").style.background = qFix3Phone[i]
-    })
-</script>
 
 </body>
 </html>
