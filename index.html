@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <link rel="shortcut icon" href="https://i.imgur.com/vi4ONbp_d.webp?maxwidth=760&amp;fidelity=grand" type="image/x-icon">
     
-<title>SN Color Switcher</title>
+<title>SnowwNet</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 <body style="background: rgb(15, 15, 15);">
 
@@ -18,17 +16,31 @@
     <p class="p3"></p>
     <p class="p4"></p>
     <p class="p5"></p>
+    <p class="p6"></p>
+    <p class="p7"></p>
+    <p class="p8"></p>
+    <p class="p9"></p>
+    <p class="p10"></p>
+    <p class="p11"></p>
 
     <button class="button1"></button>
     <button class="button2"></button>
     <button class="button3"></button>
+    <button class="button4"></button>
+    <button class="button5"></button>
+    <button class="button6"></button>
+    <button class="button7"></button>
+    <button class="button8"></button>
+    <button class="button9"></button>
 
+    <a href="https://snowwnet.rf.gd">
     <code class="code1">Made with</code>
-    <button class="button4">
+    <button class="button10">
         <img width="100px" height="100px" src="https://media.discordapp.net/attachments/1048834236091736144/1130176111020613652/SnowwNet_Logo.png?width=480&height=480">
     </button>
     </a>
 
+    <a href="https://snowwnet.rf.gd">
     <button class="button4Phone">
         <img width="75px" height="75px" src="https://media.discordapp.net/attachments/1048834236091736144/1130176111020613652/SnowwNet_Logo.png?width=480&height=480">
     </button>
@@ -72,6 +84,78 @@
 
         document.querySelector("body").style.background = color3[i]
         document.querySelector(".p5").style.background = qFix3[i]
+        })
+
+        var color4 = ["#00ffff","#00ffff"];
+        var qFix4 = ["#000000","#000000"];
+        var i = 2;
+        document.querySelector(".button5").addEventListener("click",
+        function(){ 
+        i = i < color4.length ? ++i : i - 2;
+        i = i < qFix4.length ? +i : i - 2;
+
+        document.querySelector("body").style.background = color4[i]
+        document.querySelector(".p5").style.background = qFix4[i]
+        })
+
+        var color5 = ["#ff00ff","#ff00ff"];
+        var qFix5 = ["#000000","#000000"];
+        var i = 2;
+        document.querySelector(".button4").addEventListener("click",
+        function(){ 
+        i = i < color5.length ? ++i : i - 2;
+        i = i < qFix5.length ? +i : i - 2;
+
+        document.querySelector("body").style.background = color5[i]
+        document.querySelector(".p5").style.background = qFix5[i]
+        })
+
+        var color6 = ["#ffff00","#ffff00"];
+        var qFix6 = ["#000000","#000000"];
+        var i = 2;
+        document.querySelector(".button6").addEventListener("click",
+        function(){ 
+        i = i < color6.length ? ++i : i - 2;
+        i = i < qFix6.length ? +i : i - 2;
+
+        document.querySelector("body").style.background = color6[i]
+        document.querySelector(".p5").style.background = qFix6[i]
+        })
+
+        var color7 = ["#ff9600","#ff9600"];
+        var qFix7 = ["#000000","#000000"];
+        var i = 2;
+        document.querySelector(".button7").addEventListener("click",
+        function(){ 
+        i = i < color7.length ? ++i : i - 2;
+        i = i < qFix7.length ? +i : i - 2;
+
+        document.querySelector("body").style.background = color7[i]
+        document.querySelector(".p5").style.background = qFix7[i]
+        })
+
+        var color8 = ["#ff0096","#ff0096"];
+        var qFix8 = ["#000000","#000000"];
+        var i = 2;
+        document.querySelector(".button8").addEventListener("click",
+        function(){ 
+        i = i < color8.length ? ++i : i - 2;
+        i = i < qFix8.length ? +i : i - 2;
+
+        document.querySelector("body").style.background = color8[i]
+        document.querySelector(".p5").style.background = qFix8[i]
+        })
+
+        var color9 = ["#00ff96","#00ff96"];
+        var qFix9 = ["#000000","#000000"];
+        var i = 2;
+        document.querySelector(".button9").addEventListener("click",
+        function(){ 
+        i = i < color9.length ? ++i : i - 2;
+        i = i < qFix9.length ? +i : i - 2;
+
+        document.querySelector("body").style.background = color9[i]
+        document.querySelector(".p5").style.background = qFix9[i]
         })
     </script>
 
