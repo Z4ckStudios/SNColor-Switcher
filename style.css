@@ -167,15 +167,102 @@ body
     height: 300px;
     font-size: 18px;
 }
-.p3
+
+/*Separation*/
+
+.p-1
 {
     position: absolute;
-    top: 17.2%;
-    left: 34.4%;
-    padding: 225px;
+    top: 28%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
     background: rgb(0, 0, 0);
     font-size: 18px;
 }
+.p-2
+{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-3
+{
+    position: absolute;
+    top: 28%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-4
+{
+    position: absolute;
+    top: 47.6%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-5
+{
+    position: absolute;
+    top: 47.6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-6
+{
+    position: absolute;
+    top: 47.6%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-7
+{
+    position: absolute;
+    top: 67.1%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-8
+{
+    position: absolute;
+    top: 67.1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.p-9
+{
+    position: absolute;
+    top: 67.1%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 78px;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+/*Separation*/
+
 .button10Phone
 {
     position: absolute;
@@ -214,19 +301,19 @@ body
     }
     .button1
     {
-        top: 40%;
+        top: 38.5%;
         left: 32%;
         padding: 33px;
     }
     .button2
     {
-        top: 40%;
+        top: 38.5%;
         left: 50%;
         padding: 33px;
     }
     .button3
     {
-        top: 40%;
+        top: 38.5%;
         left: 68%;
         padding: 33px;
     }
@@ -250,19 +337,19 @@ body
     }
     .button7
     {
-        top: 60%;
+        top: 61.5%;
         left: 32%;
         padding: 33px;
     }
     .button8
     {
-        top: 60%;
+        top: 61.5%;
         left: 50%;
         padding: 33px;
     }
     .button9
     {
-        top: 60%;
+        top: 61.5%;
         left: 68%;
         padding: 33px;
     }
@@ -278,11 +365,88 @@ body
         height: 175px;
         padding: 65px;
     }
-    .p3
+
+    /*Separation*/
+
+    .p-1
     {
-        font-size: 0.1px;
-        padding: 118px;
-        top: 262px;
-        left: 89px;
+    position: absolute;
+    top: 35.7%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-2
+    {
+    position: absolute;
+    top: 35.7%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-3
+    {
+    position: absolute;
+    top: 35.7%;
+    left: 68.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-4
+    {
+    position: absolute;
+    top: 47.3%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-5
+    {
+    position: absolute;
+    top: 47.3%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-6
+    {
+    position: absolute;
+    top: 47.3%;
+    left: 68.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-7
+    {
+    position: absolute;
+    top: 58.7%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-8
+    {
+    position: absolute;
+    top: 58.7%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
+    }
+    .p-9
+    {
+    position: absolute;
+    top: 58.7%;
+    left: 68.2%;
+    transform: translate(-50%, -50%);
+    padding: 41px;
+    font-size: 18px;
     }
 }
